@@ -10,6 +10,8 @@ import json
 
 __all__ = ["start"]
 
+os.mkdir("logs") if not os.path.isdir("logs") else ()
+
 
 with open("json/config.json", "r", encoding="utf-8") as file:
     config = json.load(file)
@@ -73,6 +75,7 @@ def handle_process(script: dict):
         logging.FileHandler(f"logs/{settings['path_to_id'][script['path']]}/stderr.log")
     )
     err_logger.addHandler(sh)
+    
     while True:
         out, err = process.stdout.readline(), process.stderr.readline()
         out_logger.info(out.decode().strip("\r\n"))

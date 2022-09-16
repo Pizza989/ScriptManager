@@ -1,10 +1,1 @@
-{
-    "scripts": [
-        {
-            "args": [],
-            "executable": "python",
-            "name": "b",
-            "path": "C:/Users/noah/PycharmProjects/DiscordBot/bot.py"
-        }
-    ]
-}
+{"scripts": [{"args": [], "executable": "python", "name": "b", "path": "C:/Users/noah/PycharmProjects/DiscordBot/bot.py"}]}

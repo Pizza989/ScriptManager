@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>628</width>
+    <height>412</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+    <horstretch>0</horstretch>
+    <verstretch>3</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">color: rgb(255, 255, 255);
+background-color: rgb(33, 37, 43);
+font: 9pt &quot;Fira Code&quot;;
+margin: 0px;
+padding: 0px;</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="styleSheet">
+    <string notr="true">
+margin: 0px;
+padding: 0px;</string>
+   </property>
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="1" column="0">
+     <widget class="QFrame" name="frame">
+      <property name="styleSheet">
+       <string notr="true">QFrame {
+	color: rgb(255, 255, 255);
+	background-color: rgb(33, 37, 43);
+
+margin: 0px;
+padding: 0px;
+}
+
+QTreeView {
+	border: none;
+	background-color: rgb(33, 37, 43);
+}
+
+QTabWidget::pane {
+	border: none;
+}
+
+QTabBar {
+	border: none;
+}
+
+
+QTabBar::tab {
+	background-color: rgb(33, 37, 43);
+	border-radius: 3px;
+    border-color: rgb(35, 39, 47);
+    min-width: 15ex;
+	min-height: 10ex;
+    padding: 2px;
+	margin-left: 1px;
+}
+
+QTabBar::tab:selected, QTabBar::tab:hover {
+	background-color: rgb(40, 44, 52);
+}
+
+
+QTabBar::tab:pressed {
+	background-color: rgb(35, 39, 47);
+}
+</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_3">
+         <item>
+          <widget class="QTreeView" name="treeView">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QTabWidget" name="tabWidget">
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(40, 44, 52);</string>
+           </property>
+           <widget class="QWidget" name="tab">
+            <attribute name="title">
+             <string>Tab 1</string>
+            </attribute>
+           </widget>
+           <widget class="QWidget" name="tab_2">
+            <attribute name="title">
+             <string>Tab 2</string>
+            </attribute>
+           </widget>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <widget class="QFrame" name="frame_2">
+         <property name="styleSheet">
+          <string notr="true">QPushButton {
+	border-radius: 4px;	
+	background: none;
+}
+
+QPushButton:hover {	
+	background-color: rgb(50, 54, 62);
+}
+
+QPushButton:pressed {
+	border-radius: 2px;	
+	background-color: rgb(40, 44, 52);
+}
+
+QFrame {
+	background-color: rgb(62, 69, 81);
+	border: 2px;
+
+	margin: 0px;
+	padding: 0px;
+}</string>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QHBoxLayout" name="horizontalLayout_5">
+          <item>
+           <widget class="QPushButton" name="minimize_button">
+            <property name="text">
+             <string>Minimize</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>628</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

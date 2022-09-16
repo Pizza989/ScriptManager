@@ -1,0 +1,1 @@
+C:\Users\noah\PycharmProjects\DiscordBot\bot.py:277: RuntimeWarning: coroutine 'BotBase.add_cog' was never awaited

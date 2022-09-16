@@ -1,0 +1,2 @@
+# ScriptManager
+Manage background tasks

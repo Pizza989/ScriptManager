@@ -1,4 +1,5 @@
 # ScriptManager
+WIP
 
 ScriptManager allows you to view your background tasks output in a popup and logs it to a file
 

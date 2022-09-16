@@ -4,7 +4,7 @@ ScriptManager allows you to view your background tasks output in a popup and log
 
 ## Installation
 
-Just clone it and put graphics.pyw in your startup folder
+Just clone it and link graphics.pyw in your startup folder
 \
 \
 Press win + r and enter shell:startup to find it

@@ -1,5 +1,6 @@
 # ScriptManager
 WIP
+i abandoned this dont use it or you will have to restart your pc on windows
 
 ScriptManager allows you to view your background tasks output in a popup and logs it to a file
 
